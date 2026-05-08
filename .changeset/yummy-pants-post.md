@@ -1,0 +1,5 @@
+---
+"kamiru": major
+---
+
+initial
