@@ -1,0 +1,37 @@
+{
+  "name": "kamiru",
+  "type": "module",
+  "version": "2.2.0",
+  "description": "fetch myself",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "kamiru": "dist/index.js"
+  },
+  "files": [
+    "/dist",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "build": "tsup",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "release": "bun run build && changeset publish",
+    "change": "changeset"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^5.4.1",
+    "@changesets/cli": "^2.29.7",
+    "@types/bun": "latest",
+    "eslint": "^9.36.0",
+    "eslint-plugin-format": "^1.0.2",
+    "tsup": "^8.5.0"
+  }
+}
