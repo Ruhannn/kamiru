@@ -1,0 +1,5 @@
+---
+"kamiruu": patch
+---
+
+yes

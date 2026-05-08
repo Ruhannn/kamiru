@@ -1,11 +1,7 @@
 {
   "name": "kamiruu",
   "type": "module",
-<<<<<<< HEAD
   "version": "2.2.2",
-=======
-  "version": "2.2.1",
->>>>>>> 9e3dac9d73725c59315b5e539e9d731073558513
   "description": "fetch myself",
   "license": "MIT",
   "main": "dist/index.js",
