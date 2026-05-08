@@ -4,8 +4,8 @@ export default defineConfig({
   entry: ["src/index.ts"],
   format: ["esm"],
   platform: "node",
-  dts: true,
-  minify: true,
+  // dts: true,
+  // minify: true,
   clean: true,
   banner: { js: "#!/usr/bin/env node" },
 });

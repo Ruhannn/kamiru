@@ -1,0 +1,5 @@
+---
+"kamiruu": major
+---
+
+added info
