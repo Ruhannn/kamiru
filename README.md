@@ -1,1 +1,1 @@
-# my claim foe kamiru
+# my claim for kamiruu
