@@ -6,7 +6,7 @@ export type Config = {
   // projects: links ,blog
   skills: string[];
   extra: {
-    email:{ label: string; url: string };
+    email: { label: string; url: string };
     website: { label: string; url: string };
     github: { label: string; url: string };
     // facebook: { label: string; url: string };
