@@ -1,5 +1,11 @@
 # kamiruu
 
+## 3.0.0
+
+### Major Changes
+
+- 9d7574e: added info
+
 ## 2.2.3
 
 ### Patch Changes
